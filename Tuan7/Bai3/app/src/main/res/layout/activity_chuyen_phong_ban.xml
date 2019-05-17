@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChuyenPhongBanActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008000"
+        android:text="Chọn phòng ban để chuyển"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/lvphongban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" >
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/imgapply"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:contentDescription="Thiết lập"
+        android:src="@drawable/apply" />
+
+</LinearLayout>

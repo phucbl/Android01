@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/Gun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gun" />
+
+        <CheckBox
+            android:id="@+id/Pistol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pistol" />
+
+        <CheckBox
+            android:id="@+id/Bullets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bullets" />
+
+        <CheckBox
+            android:id="@+id/Nade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nade" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/soldier" >
+
+        <ImageView
+            android:id="@+id/ImageGun"
+            android:layout_width="50dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="100dp" />
+
+        <ImageView
+            android:id="@+id/ImagePistol"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:id="@+id/ImageBullets"
+            android:layout_width="36dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp" />
+
+        <ImageView
+            android:id="@+id/ImageNade"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="200dp" />
+    </FrameLayout>
+
+</android.widget.LinearLayout>
