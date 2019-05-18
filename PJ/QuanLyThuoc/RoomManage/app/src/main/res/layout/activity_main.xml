@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg1"
+    tools:context=".MainActivity"
+    android:padding="12dp">
+
+    <!--<GridView-->
+        <!--android:id="@+id/gridView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:columnWidth="120dp"-->
+        <!--android:gravity="center"-->
+        <!--android:numColumns="2">-->
+
+    <!--</GridView>-->
+    <ListView
+        android:id="@+id/listvRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp">
+
+    </ListView>
+
+</LinearLayout>
