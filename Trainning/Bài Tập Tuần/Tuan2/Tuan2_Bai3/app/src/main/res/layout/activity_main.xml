@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/Brid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brid" />
+
+        <RadioButton
+            android:id="@+id/Cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat" />
+
+        <RadioButton
+            android:id="@+id/Dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog" />
+
+        <RadioButton
+            android:id="@+id/Rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rabbit" />
+
+        <RadioButton
+            android:id="@+id/Pig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pig" />
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp" />
+
+</android.widget.LinearLayout>
