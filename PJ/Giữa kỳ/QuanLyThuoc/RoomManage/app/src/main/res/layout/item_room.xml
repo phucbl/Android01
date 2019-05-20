@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pickitem"
+    android:background="@drawable/shape_room"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageviewPhong"
+        android:src="@drawable/room"
+        android:layout_marginRight="12dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/imageviewPhong"
+        android:id="@+id/textviewMaPhong"
+        android:text="Mã phòng"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@+id/imageviewPhong"
+        android:layout_below="@+id/textviewMaPhong"
+        android:id="@+id/textviewLoaiPhong"
+        android:text="Loại phòng"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@+id/imageviewPhong"
+        android:layout_below="@+id/textviewLoaiPhong"
+        android:id="@+id/textviewTang"
+        android:text="Tầng"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@+id/imageviewPhong"
+        android:layout_below="@+id/textviewTang"
+        android:id="@+id/textviewGia"
+        android:text="Giá phòng"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageviewEdit"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/edit"
+        android:layout_marginRight="12dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageviewEdit"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageviewDelete"
+        android:src="@drawable/delete"
+        android:layout_marginRight="12dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</RelativeLayout>
