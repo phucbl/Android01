@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "297581376615",
+    "firebase_url": "https://rebo-237216.firebaseio.com",
+    "project_id": "rebo-237216",
+    "storage_bucket": "rebo-237216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297581376615:android:731c5cce7ec97d53",
+        "android_client_info": {
+          "package_name": "com.example.bai1_tuan8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297581376615-8jbq18db05dj40uv2dq1jgnr694jutjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8EbOc5VVA0Z346A9xabLASfJ9aayqP2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297581376615-8jbq18db05dj40uv2dq1jgnr694jutjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
